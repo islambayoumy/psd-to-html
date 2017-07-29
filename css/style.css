@@ -1,0 +1,240 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+    background: #fff url('../imgs/bg.png') repeat-y top left fixed;
+    height: 100%;
+}
+
+.site-wrapper {
+    width: 100%;
+    height: 100%;
+    color: #000;
+    background: transparent url('../imgs/banner.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom: 20px;
+    display: table;
+    -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+    box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+    margin-bottom: 0px;
+}
+.wrapper-2 {
+    background: transparent url('../imgs/banner2.png') no-repeat center center fixed;
+}
+.site-wrapper .row .col-lg-1 a img {
+    margin-top:50px;
+    float: right;
+}
+.site-wrapper-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+.side_col {
+    padding-left: 0px;
+    margin-top: 20px;
+    height: 100%;
+}
+.side_bar {
+    background-color: rgb(19, 19, 19);
+    opacity: 0.9;
+    height: 100%;
+    padding-top: 100%;
+    padding-bottom: 100%;
+}
+@media (max-width: 999px) {
+    .side_bar{
+        padding-top: 40%;
+        padding-bottom: 40%;
+    }
+}
+.into {
+    text-align: center;
+    padding-top: 25%;
+}
+.title {
+    font-size: 50px;
+    font-family: "Playfair Display";
+    color: #fff;
+    font-style: italic;
+    line-height: 0.903;
+    padding-bottom: 16px;
+}
+@media (max-width: 999px) {
+    .title{font-size: 30px;}
+}
+.explore {
+    color: #000;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.details {
+    font-size: 11px;
+    font-family: "Montserrat";
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+.side_bar ul {
+    width: 170px;
+    margin: auto;
+}
+.side_bar ul li, .side_bar ul li a {
+    font-size: 11px;
+    font-family: "Montserrat";
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1.5;
+    font-weight: 500;
+    padding: 3px;
+}
+.for {
+    color: #000;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+#container{
+    position: relative;
+}
+.beauty {
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#image {
+    position: absolute;
+}
+#text {
+    z-index: 100;
+    position: absolute;
+    font-size: 50px;
+    font-family: "Playfair Display";
+    color: #fff;
+    font-style: italic;
+    line-height: 0.903;
+    top: 150px;
+    text-align: center;
+    width: 100%;
+    left: 0px;
+}
+#watch_text {
+    z-index: 100;
+    position: absolute;
+    font-size: 50px;
+    font-family: "Playfair Display";
+    color: #fff;
+    font-style: italic;
+    line-height: 0.903;
+    text-align: center;
+    padding-top: 100px;
+}
+#watch_text h1 {
+    text-align: center;
+}
+#details {
+    z-index: 100;
+    position: absolute;
+    font-size: 11px;
+    font-family: "Montserrat";
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1.5;
+    margin: auto;
+    top: 50px;
+    text-align: center;
+}
+.products {
+    text-align: center;
+    padding: 10px;
+    background: #fff;
+}
+.products:hover {
+    background: silver;
+    cursor: pointer;
+}
+.product {
+    background: #fff;
+}
+.w_products {
+    max-width: 172px;
+    max-height: 240px;
+    display: block;
+    margin: auto;
+}
+.w_text {
+    color: #333;
+    padding-top: 15px;
+    padding-bottom: 15px;    
+}
+.view {
+    color: white;
+}
+.watches-row {
+    padding-bottom: 100px;
+    display: block;
+    margin: auto;
+    margin-right: 15px;
+}
+#container img {
+    display: block;
+    margin: auto;
+}
+.for-row {
+    margin-top: 100px;
+}
+
+footer {
+    background-color: rgb(24, 24, 24);
+    padding-top: 150px;
+    padding-bottom: 120px;
+    color: #cacaca;
+}
+.footer_title {
+    font-size: 19px;
+    font-family: "Playfair Display";
+    font-style: italic;
+    line-height: 0.903;
+    margin: 0px;
+    margin-bottom: 35px;
+}
+.footer_content {
+    font-size: 12px;
+    font-family: "Montserrat";
+    line-height: 1.5;
+    font-weight: 200;
+}
+ul.unstyled {
+    padding: 0;
+    padding-left: 20px;
+}
+.footer_content li a {
+    text-decoration: none;
+    color: #cacaca;
+}
+.footer_content li a:hover {
+    text-decoration: underline;
+}
+footer .row div {
+    margin-bottom: 30px;
+}
+
+.follow_links li {
+    list-style: none;
+    display: inline-block;
+}
+.follow_links li a {
+    display: block;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(56, 61, 75);
+    background-color: rgb(228, 224, 220);
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+.follow_links li a img {
+    margin-top: 4px;
+}
